@@ -7,22 +7,22 @@ import { InvatationBrideComponent } from './invatation-bride/invatation-bride.co
 
 const routes: Routes = [
   {
-    path: '', redirectTo: '/' ,pathMatch: "full"
+    path: '', redirectTo: 'wedding' ,pathMatch: "full"
   },
   {
-    path: '',
+    path: 'wedding',
     component: HomeComponent
   },
   {
-    path: 'khwedding/invitation',
+    path: 'wedding/invitation',
     component: InvatationComponent
   },
   {
-    path: 'khwedding/groom',
+    path: 'wedding/groom',
     component: InvatationGroomComponent
   },
   {
-    path: 'khwedding/bride',
+    path: 'wedding/bride',
     component: InvatationBrideComponent
   }
 ];
